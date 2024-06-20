@@ -1,0 +1,25 @@
+/*  videos e imagenes */ 
+
+
+video {height: 1000px; width: 1200px;}
+
+img {height: 500px; width: 500px;} 
+
+
+video.galeria-g {height: 500px; width: 500px;}     
+
+.video-intro {width: 50%; height:50% ;}
+
+img.contacto{height: 100px;width: 100px;}
+
+
+.imagen-inicio {display: flex; align-items: center;justify-content: center; height: 400px; width: 300px;}
+
+.img-logo {display: inline-block; width: 80px; height: 80px;border: 10px solid lightblue}
+
+
+.img-galery{width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+.pit{width: 100px; height: 100px;}

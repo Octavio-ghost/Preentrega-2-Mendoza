@@ -1,0 +1,29 @@
+/* displays*/
+
+.section-one {display: flex; align-content: center; justify-content: center}
+
+
+.ubicacion{display: flex; justify-content: center;align-items: center;
+}
+
+
+.p-ubi{display: flex; align-items: center;justify-content: center;}
+
+
+.NOTICIAS {position: relative;top: 5px; right: 5px;bottom: 5px;left: 5px;height: 30px;width: 120px;display: block;}
+    
+    
+article {display: flex; align-items: last baseline; justify-items: last baseline;}
+    
+.section-one {display: flex;align-items: last baseline;justify-items: last baseline;}
+    
+.sub{border: 50px solid white;}
+    
+    
+    
+.article-p {border: 20px solid gray;}
+    
+.img-logo {display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 10px solid lightblue}
