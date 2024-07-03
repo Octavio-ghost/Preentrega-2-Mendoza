@@ -22,8 +22,9 @@ video.galeria-g {
 }
 
 .video-intro {
-  width: 50%;
-  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(2 150px);
+  grid-template-rows: repeat(3 150px);
 }
 
 img.contacto {
@@ -175,9 +176,15 @@ p {
   width: 160px;
   height: 50px;
   border: 2px solid black;
-  background-image: linear-gradient(to top, red, blue);
+  background-color: blue;
   animation-delay: 2s;
   transition-duration: 10s;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

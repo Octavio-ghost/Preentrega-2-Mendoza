@@ -8,7 +8,7 @@ img {height: 500px; width: 500px;}
 
 video.galeria-g {height: 500px; width: 500px;}     
 
-.video-intro {width: 50%; height:50% ;}
+.video-intro {display: grid; grid-template-columns: repeat(2 150px);grid-template-rows: repeat(3 150px);}
 
 img.contacto{height: 100px;width: 100px;}
 
