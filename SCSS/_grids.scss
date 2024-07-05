@@ -5,8 +5,7 @@
 .contac{display: grid; grid-template-rows: repeat(6, 1fr);grid-template-columns: repeat(2,150px);align-items:center; justify-items:center;} 
 
 
-.video-intro{ display: grid; grid-template-columns: repeat(1,1fr); justify-content: center; align-items: center;}
-
+.video-intro{ display: grid; grid-template-columns: repeat(2,500px); grid-template-rows: repeat(5 1fr);}
 .grid-container {display: grid;
     grid-template-columns:repeat(1, 300px);
     grid-template-rows: repeat(4, 1fr);

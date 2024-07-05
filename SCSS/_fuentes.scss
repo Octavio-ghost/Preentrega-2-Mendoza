@@ -6,3 +6,18 @@ li.tips{font-style:italic;}
 
 p{font-style: normal;
 color: $Color-secundario;}
+
+h1{  
+@extend .box
+}
+
+section {margin: 10px;
+    p{font-size: larger;
+
+    }
+    ol{font-style: italic;
+        li{padding: 4px;
+
+        }
+    }
+}

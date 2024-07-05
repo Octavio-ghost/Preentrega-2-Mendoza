@@ -3,6 +3,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: hsl(182, 86%, 50%);
 }
 
 /*  videos e imagenes */
@@ -22,8 +23,8 @@ video.galeria-g {
 }
 
 .video-intro {
-  width: 1fr;
-  height: 1fr;
+  width: 1200px;
+  height: 1000px;
 }
 
 img.contacto {
@@ -78,9 +79,8 @@ img.contacto {
 
 .video-intro {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(2, 500px);
+  grid-template-rows: repeat(5 1fr);
 }
 
 .grid-container {
@@ -171,6 +171,19 @@ p {
   color: white;
 }
 
+section {
+  margin: 10px;
+}
+section p {
+  font-size: larger;
+}
+section ol {
+  font-style: italic;
+}
+section ol li {
+  padding: 4px;
+}
+
 .animacion:hover {
   width: 160px;
   height: 50px;
@@ -184,6 +197,9 @@ p {
   body {
     background-color: red;
   }
+}
+.box, h1 {
+  border: dotted lawngreen 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
